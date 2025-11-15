@@ -95,6 +95,61 @@
             // "format": "process-name: {process-name}, pretty-name: {pretty-name}, protocol-name: {protocol-name}, plugin-name: {plugin-name}, version: {version}"
         },
 
+        // "break",
+
+        // { // rust
+        //     "type": "command",
+        //     "key": "rust",
+        //     "text": "rustc --version",
+        //     "format": "rustc {~6,13}"                         // Print 6th to 13th characters (version number)
+        // },
+        // { // clang
+        //     "type": "command",
+        //     "condition": {
+        //         "!system": "Windows" // Posix version
+        //     },
+        //     "key": "clang",
+        //     "text": "clang --version | sed -n 's/.*version \\([0-9][0-9.]*\\).*/\\1/p'",
+        //     "format": "clang {}"
+        // },
+        // { // clang for windows
+        //     "type": "command",
+        //     "condition": {
+        //         "system": "Windows"                           
+        //     },
+        //     "key": "clang",
+        //     "text": "clang --version | findstr version", // Finds the line with "version"
+        //     "format": "clang {~-6}" // Prints the last 6 characters (version number)
+        // },
+        // { // nodejs
+        //     "type": "command",
+        //     "key": "nodejs",
+        //     "text": "node --version",
+        //     "format": "node {~1}" // {~1} removes first character (v)
+        // },
+        // { // go
+        //     "type": "command",
+        //     "key": "go",
+        //     "text": "go version | cut -d' ' -f3",
+        //     "format": "go {~2}" // {~2} removes first 2 characters (go)
+        // },
+        // { // zig
+        //     "type": "command",
+        //     "key": "zig",
+        //     "text": "zig version",
+        //     "format": "zig {}"
+        // },
+        // {
+        //     "type": "editor",
+        //     // "key": "editor"
+        // },
+        // { // git
+        //     "type": "command",
+        //     "key": "git",
+        //     "text": "git version",
+        //     "format": "git {~12}"
+        // },
+
         "break",
 
         {
