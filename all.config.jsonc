@@ -1,0 +1,346 @@
+// output of /home/howhow/.local/share/Trash/files/all.config.jsonc
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "modules": [
+        {
+            "type": "title",
+            "key": "title: ",
+            "format": "user-name: {user-name}, host-name: {host-name}, home-dir: {home-dir}, exe-path: {exe-path}, user-shell: {user-shell}, user-name-colored: {user-name-colored}, at-symbol-colored: {at-symbol-colored}, host-name-colored: {host-name-colored}, full-user-name: {full-user-name}"
+        },
+        {
+            "type": "os",
+            "key": "os: ",
+            "format": "sysname: {sysname}, name: {name}, pretty-name: {pretty-name}, id: {id}, id-like: {id-like}, variant: {variant}, variant-id: {variant-id}, version: {version}, version-id: {version-id}, codename: {codename}, build-id: {build-id}, arch: {arch}"
+        },
+        {
+            "type": "host",
+            "key": "host: ",
+            "format": "family: {family}, name: {name}, version: {version}, sku: {sku}, vendor: {vendor}, serial: {serial}, uuid: {uuid}"
+        },
+        {
+            "type": "bios",
+            "key": "bios: ",
+            "format": "date: {date}, release: {release}, vendor: {vendor}, version: {version}, type: {type}"
+        },
+        {
+            "type": "bootmgr",
+            "key": "bootmgr: ",
+            "format": "name: {name}, firmware-path: {firmware-path}, firmware-name: {firmware-name}, secure-boot: {secure-boot}, order: {order}"
+        },
+        {
+            "type": "board",
+            "key": "board: ",
+            "format": "name: {name}, vendor: {vendor}, version: {version}, serial: {serial}"
+        },
+        {
+            "type": "chassis",
+            "key": "chassis: ",
+            "format": "type: {type}, vendor: {vendor}, version: {version}, serial: {serial}"
+        },
+        {
+            "type": "kernel",
+            "key": "kernel: ",
+            "format": "sysname: {sysname}, release: {release}, version: {version}, arch: {arch}, display-version: {display-version}, page-size: {page-size}"
+        },
+        {
+            "type": "initsystem",
+            "key": "initsystem: ",
+            "format": "name: {name}, exe: {exe}, version: {version}, pid: {pid}"
+        },
+        {
+            "type": "uptime",
+            "key": "uptime: ",
+            "format": "days: {days}, hours: {hours}, minutes: {minutes}, seconds: {seconds}, milliseconds: {milliseconds}, boot-time: {boot-time}, years: {years}, days-of-year: {days-of-year}, years-fraction: {years-fraction}, formatted: {formatted}"
+        },
+        {
+            "type": "loadavg",
+            "key": "loadavg: ",
+            "format": "loadavg1: {loadavg1}, loadavg2: {loadavg2}, loadavg3: {loadavg3}"
+        },
+        {
+            "type": "processes",
+            "key": "processes: ",
+            "format": "result: {result}"
+        },
+        {
+            "type": "packages",
+            "key": "packages: ",
+            "format": "all: {all}, pacman: {pacman}, pacman-branch: {pacman-branch}, dpkg: {dpkg}, rpm: {rpm}, emerge: {emerge}, eopkg: {eopkg}, xbps: {xbps}, nix-system: {nix-system}, nix-user: {nix-user}, nix-default: {nix-default}, apk: {apk}, pkg: {pkg}, flatpak-system: {flatpak-system}, flatpak-user: {flatpak-user}, snap: {snap}, brew: {brew}, brew-cask: {brew-cask}, macports: {macports}, scoop-user: {scoop-user}, scoop-global: {scoop-global}, choco: {choco}, pkgtool: {pkgtool}, paludis: {paludis}, winget: {winget}, opkg: {opkg}, am-system: {am-system}, sorcery: {sorcery}, lpkg: {lpkg}, lpkgbuild: {lpkgbuild}, guix-system: {guix-system}, guix-user: {guix-user}, guix-home: {guix-home}, linglong: {linglong}, pacstall: {pacstall}, mport: {mport}, am-user: {am-user}, pkgsrc: {pkgsrc}, hpkg-system: {hpkg-system}, hpkg-user: {hpkg-user}, pisi: {pisi}, soar: {soar}, nix-all: {nix-all}, flatpak-all: {flatpak-all}, brew-all: {brew-all}, guix-all: {guix-all}, hpkg-all: {hpkg-all}"
+        },
+        {
+            "type": "shell",
+            "key": "shell: ",
+            "format": "process-name: {process-name}, exe: {exe}, exe-name: {exe-name}, version: {version}, pid: {pid}, pretty-name: {pretty-name}, exe-path: {exe-path}, tty: {tty}"
+        },
+        {
+            "type": "editor",
+            "key": "editor: ",
+            "format": "type: {type}, name: {name}, exe-name: {exe-name}, path: {path}, version: {version}"
+        },
+        {
+            "type": "display",
+            "key": "display: ",
+            "format": "width: {width}, height: {height}, refresh-rate: {refresh-rate}, scaled-width: {scaled-width}, scaled-height: {scaled-height}, name: {name}, type: {type}, rotation: {rotation}, is-primary: {is-primary}, physical-width: {physical-width}, physical-height: {physical-height}, inch: {inch}, ppi: {ppi}, bit-depth: {bit-depth}, hdr-enabled: {hdr-enabled}, manufacture-year: {manufacture-year}, manufacture-week: {manufacture-week}, serial: {serial}, platform-api: {platform-api}, hdr-compatible: {hdr-compatible}, scale-factor: {scale-factor}, preferred-width: {preferred-width}, preferred-height: {preferred-height}, preferred-refresh-rate: {preferred-refresh-rate}"
+        },
+        {
+            "type": "brightness",
+            "key": "brightness: ",
+            "format": "percentage: {percentage}, name: {name}, max: {max}, min: {min}, current: {current}, percentage-bar: {percentage-bar}, is-builtin: {is-builtin}"
+        },
+        {
+            "type": "monitor",
+            "key": "monitor: ",
+            "format": "name: {name}, width: {width}, height: {height}, physical-width: {physical-width}, physical-height: {physical-height}, inch: {inch}, ppi: {ppi}, manufacture-year: {manufacture-year}, manufacture-week: {manufacture-week}, serial: {serial}, refresh-rate: {refresh-rate}, hdr-compatible: {hdr-compatible}"
+        },
+        {
+            "type": "lm",
+            "key": "lm: ",
+            "format": "service: {service}, type: {type}, version: {version}"
+        },
+        {
+            "type": "de",
+            "key": "de: ",
+            "format": "process-name: {process-name}, pretty-name: {pretty-name}, version: {version}"
+        },
+        {
+            "type": "wm",
+            "key": "wm: ",
+            "format": "process-name: {process-name}, pretty-name: {pretty-name}, protocol-name: {protocol-name}, plugin-name: {plugin-name}, version: {version}"
+        },
+        {
+            "type": "wmtheme",
+            "key": "wmtheme: ",
+            "format": "result: {result}"
+        },
+        {
+            "type": "theme",
+            "key": "theme: ",
+            "format": "theme1: {theme1}, theme2: {theme2}"
+        },
+        {
+            "type": "icons",
+            "key": "icons: ",
+            "format": "icons1: {icons1}, icons2: {icons2}"
+        },
+        {
+            "type": "font",
+            "key": "font: ",
+            "format": "font1: {font1}, font2: {font2}, font3: {font3}, font4: {font4}, combined: {combined}"
+        },
+        {
+            "type": "cursor",
+            "key": "cursor: ",
+            "format": "theme: {theme}, size: {size}"
+        },
+        {
+            "type": "wallpaper",
+            "key": "wallpaper: ",
+            "format": "file-name: {file-name}, full-path: {full-path}"
+        },
+        {
+            "type": "terminal",
+            "key": "terminal: ",
+            "format": "process-name: {process-name}, exe: {exe}, exe-name: {exe-name}, pid: {pid}, pretty-name: {pretty-name}, version: {version}, exe-path: {exe-path}, tty: {tty}"
+        },
+        {
+            "type": "terminalfont",
+            "key": "terminalfont: ",
+            "format": "combined: {combined}, name: {name}, size: {size}, styles: {styles}"
+        },
+        {
+            "type": "terminalsize",
+            "key": "terminalsize: ",
+            "format": "rows: {rows}, columns: {columns}, width: {width}, height: {height}"
+        },
+        {
+            "type": "terminaltheme",
+            "key": "terminaltheme: ",
+            "format": "fg-color: {fg-color}, fg-type: {fg-type}, bg-color: {bg-color}, bg-type: {bg-type}"
+        },
+        {
+            "type": "cpu",
+            "key": "cpu: ",
+            "format": "name: {name}, vendor: {vendor}, cores-physical: {cores-physical}, cores-logical: {cores-logical}, cores-online: {cores-online}, freq-base: {freq-base}, freq-max: {freq-max}, temperature: {temperature}, core-types: {core-types}, packages: {packages}, march: {march}"
+        },
+        {
+            "type": "cpucache",
+            "key": "cpucache: ",
+            "format": "result: {result}, sum: {sum}"
+        },
+        {
+            "type": "cpuusage",
+            "key": "cpuusage: ",
+            "format": "avg: {avg}, max: {max}, max-index: {max-index}, min: {min}, min-index: {min-index}, avg-bar: {avg-bar}, max-bar: {max-bar}, min-bar: {min-bar}"
+        },
+        {
+            "type": "gpu",
+            "key": "gpu: ",
+            "format": "vendor: {vendor}, name: {name}, driver: {driver}, temperature: {temperature}, core-count: {core-count}, type: {type}, dedicated-total: {dedicated-total}, dedicated-used: {dedicated-used}, shared-total: {shared-total}, shared-used: {shared-used}, platform-api: {platform-api}, frequency: {frequency}, index: {index}, dedicated-percentage-num: {dedicated-percentage-num}, dedicated-percentage-bar: {dedicated-percentage-bar}, shared-percentage-num: {shared-percentage-num}, shared-percentage-bar: {shared-percentage-bar}, core-usage-num: {core-usage-num}, core-usage-bar: {core-usage-bar}, memory-type: {memory-type}"
+        },
+        {
+            "type": "memory",
+            "key": "memory: ",
+            "format": "used: {used}, total: {total}, percentage: {percentage}, percentage-bar: {percentage-bar}"
+        },
+        {
+            "type": "physicalmemory",
+            "key": "physicalmemory: ",
+            "format": "bytes: {bytes}, size: {size}, max-speed: {max-speed}, running-speed: {running-speed}, type: {type}, form-factor: {form-factor}, locator: {locator}, vendor: {vendor}, serial: {serial}, part-number: {part-number}, is-ecc-enabled: {is-ecc-enabled}"
+        },
+        {
+            "type": "swap",
+            "key": "swap: ",
+            "format": "used: {used}, total: {total}, percentage: {percentage}, percentage-bar: {percentage-bar}, name: {name}"
+        },
+        {
+            "type": "disk",
+            "key": "disk: ",
+            "format": "size-used: {size-used}, size-total: {size-total}, size-percentage: {size-percentage}, files-used: {files-used}, files-total: {files-total}, files-percentage: {files-percentage}, is-external: {is-external}, is-hidden: {is-hidden}, filesystem: {filesystem}, name: {name}, is-readonly: {is-readonly}, create-time: {create-time}, size-percentage-bar: {size-percentage-bar}, files-percentage-bar: {files-percentage-bar}, days: {days}, hours: {hours}, minutes: {minutes}, seconds: {seconds}, milliseconds: {milliseconds}, mountpoint: {mountpoint}, mount-from: {mount-from}, years: {years}, days-of-year: {days-of-year}, years-fraction: {years-fraction}, size-free: {size-free}, size-available: {size-available}"
+        },
+        {
+            "type": "btrfs",
+            "key": "btrfs: ",
+            "format": "name: {name}, uuid: {uuid}, devices: {devices}, features: {features}, used: {used}, allocated: {allocated}, total: {total}, used-percentage: {used-percentage}, allocated-percentage: {allocated-percentage}, used-percentage-bar: {used-percentage-bar}, allocated-percentage-bar: {allocated-percentage-bar}, node-size: {node-size}, sector-size: {sector-size}"
+        },
+        {
+            "type": "zpool",
+            "key": "zpool: ",
+            "format": "name: {name}, state: {state}, used: {used}, total: {total}, used-percentage: {used-percentage}, fragmentation-percentage: {fragmentation-percentage}, used-percentage-bar: {used-percentage-bar}, fragmentation-percentage-bar: {fragmentation-percentage-bar}"
+        },
+        {
+            "type": "battery",
+            "key": "battery: ",
+            "format": "manufacturer: {manufacturer}, model-name: {model-name}, technology: {technology}, capacity: {capacity}, status: {status}, temperature: {temperature}, cycle-count: {cycle-count}, serial: {serial}, manufacture-date: {manufacture-date}, capacity-bar: {capacity-bar}, time-days: {time-days}, time-hours: {time-hours}, time-minutes: {time-minutes}, time-seconds: {time-seconds}, time-formatted: {time-formatted}"
+        },
+        {
+            "type": "poweradapter",
+            "key": "poweradapter: ",
+            "format": "watts: {watts}, name: {name}, manufacturer: {manufacturer}, model: {model}, description: {description}, serial: {serial}"
+        },
+        {
+            "type": "player",
+            "key": "player: ",
+            "format": "player: {player}, name: {name}, id: {id}, url: {url}"
+        },
+        {
+            "type": "media",
+            "key": "media: ",
+            "format": "combined: {combined}, title: {title}, artist: {artist}, album: {album}, status: {status}"
+        },
+        {
+            "type": "publicip",
+            "key": "publicip: ",
+            "format": "ip: {ip}, location: {location}"
+        },
+        {
+            "type": "localip",
+            "key": "localip: ",
+            "format": "ipv4: {ipv4}, ipv6: {ipv6}, mac: {mac}, ifname: {ifname}, is-default-route: {is-default-route}, mtu: {mtu}, speed: {speed}, flags: {flags}"
+        },
+        {
+            "type": "dns",
+            "key": "dns: ",
+            "format": "result: {result}"
+        },
+        {
+            "type": "wifi",
+            "key": "wifi: ",
+            "format": "inf-desc: {inf-desc}, inf-status: {inf-status}, status: {status}, ssid: {ssid}, bssid: {bssid}, protocol: {protocol}, signal-quality: {signal-quality}, rx-rate: {rx-rate}, tx-rate: {tx-rate}, security: {security}, signal-quality-bar: {signal-quality-bar}, channel: {channel}, band: {band}"
+        },
+        {
+            "type": "datetime",
+            "key": "datetime: ",
+            "format": "year: {year}, year-short: {year-short}, month: {month}, month-pretty: {month-pretty}, month-name: {month-name}, month-name-short: {month-name-short}, week: {week}, weekday: {weekday}, weekday-short: {weekday-short}, day-in-year: {day-in-year}, day-in-month: {day-in-month}, day-in-week: {day-in-week}, hour: {hour}, hour-pretty: {hour-pretty}, hour-12: {hour-12}, hour-12-pretty: {hour-12-pretty}, minute: {minute}, minute-pretty: {minute-pretty}, second: {second}, second-pretty: {second-pretty}, offset-from-utc: {offset-from-utc}, timezone-name: {timezone-name}, day-pretty: {day-pretty}"
+        },
+        {
+            "type": "locale",
+            "key": "locale: ",
+            "format": "result: {result}"
+        },
+        {
+            "type": "vulkan",
+            "key": "vulkan: ",
+            "format": "driver: {driver}, api-version: {api-version}, conformance-version: {conformance-version}, instance-version: {instance-version}"
+        },
+        {
+            "type": "opengl",
+            "key": "opengl: ",
+            "format": "version: {version}, renderer: {renderer}, vendor: {vendor}, slv: {slv}, library: {library}"
+        },
+        {
+            "type": "opencl",
+            "key": "opencl: ",
+            "format": "version: {version}, name: {name}, vendor: {vendor}"
+        },
+        {
+            "type": "users",
+            "key": "users: ",
+            "format": "name: {name}, host-name: {host-name}, session-name: {session-name}, client-ip: {client-ip}, login-time: {login-time}, days: {days}, hours: {hours}, minutes: {minutes}, seconds: {seconds}, milliseconds: {milliseconds}, years: {years}, days-of-year: {days-of-year}, years-fraction: {years-fraction}"
+        },
+        {
+            "type": "bluetooth",
+            "key": "bluetooth: ",
+            "format": "name: {name}, address: {address}, type: {type}, battery-percentage: {battery-percentage}, connected: {connected}, battery-percentage-bar: {battery-percentage-bar}"
+        },
+        {
+            "type": "bluetoothradio",
+            "key": "bluetoothradio: ",
+            "format": "name: {name}, address: {address}, lmp-version: {lmp-version}, lmp-subversion: {lmp-subversion}, version: {version}, vendor: {vendor}, discoverable: {discoverable}, connectable: {connectable}"
+        },
+        {
+            "type": "sound",
+            "key": "sound: ",
+            "format": "is-main: {is-main}, name: {name}, volume-percentage: {volume-percentage}, identifier: {identifier}, volume-percentage-bar: {volume-percentage-bar}, platform-api: {platform-api}"
+        },
+        {
+            "type": "camera",
+            "key": "camera: ",
+            "format": "name: {name}, vendor: {vendor}, colorspace: {colorspace}, id: {id}, width: {width}, height: {height}"
+        },
+        {
+            "type": "gamepad",
+            "key": "gamepad: ",
+            "format": "name: {name}, serial: {serial}, battery-percentage: {battery-percentage}, battery-percentage-bar: {battery-percentage-bar}"
+        },
+        {
+            "type": "mouse",
+            "key": "mouse: ",
+            "format": "name: {name}, serial: {serial}"
+        },
+        {
+            "type": "keyboard",
+            "key": "keyboard: ",
+            "format": "name: {name}, serial: {serial}"
+        },
+        {
+            "type": "weather",
+            "key": "weather: ",
+            "format": "result: {result}"
+        },
+        {
+            "type": "netio",
+            "key": "netio: ",
+            "format": "rx-size: {rx-size}, tx-size: {tx-size}, ifname: {ifname}, is-default-route: {is-default-route}, rx-bytes: {rx-bytes}, tx-bytes: {tx-bytes}, rx-packets: {rx-packets}, tx-packets: {tx-packets}, rx-errors: {rx-errors}, tx-errors: {tx-errors}, rx-drops: {rx-drops}, tx-drops: {tx-drops}"
+        },
+        {
+            "type": "diskio",
+            "key": "diskio: ",
+            "format": "size-read: {size-read}, size-written: {size-written}, name: {name}, dev-path: {dev-path}, bytes-read: {bytes-read}, bytes-written: {bytes-written}, read-count: {read-count}, write-count: {write-count}"
+        },
+        {
+            "type": "physicaldisk",
+            "key": "physicaldisk: ",
+            "format": "size: {size}, name: {name}, interconnect: {interconnect}, dev-path: {dev-path}, serial: {serial}, physical-type: {physical-type}, removable-type: {removable-type}, readonly-type: {readonly-type}, revision: {revision}, temperature: {temperature}"
+        },
+        {
+            "type": "tpm",
+            "key": "tpm: ",
+            "format": "version: {version}, description: {description}"
+        },
+        {
+            "type": "version",
+            "key": "version: ",
+            "format": "project-name: {project-name}, version: {version}, version-tweak: {version-tweak}, build-type: {build-type}, sysname: {sysname}, arch: {arch}, cmake-built-type: {cmake-built-type}, compile-time: {compile-time}, compiler: {compiler}, libc: {libc}"
+        }
+    ]
+}
