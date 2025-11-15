@@ -42,6 +42,11 @@ I left as much information as I could regarding possible configuration, however 
 If you want to check a modules modern json formatting then you can run 
 `fastfetch -h <module>-format`
 
+> [!NOTE]
+> If the ASCII shows up as a solid color, your terminal’s default font doesn’t support the Braille characters used.  
+> Mine (`blackbox-terminal`) defaulted to “Monospace”, and I fixed it by switching to “Hack”.  
+> Both fonts came pre-installed on my system.
+
 ----
 
 This repository’s code and config are licensed under the MIT License (see `LICENSE`).
