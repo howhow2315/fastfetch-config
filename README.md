@@ -47,5 +47,4 @@ If you want to check a modules modern json formatting then you can run
 This repository’s code and config are licensed under the MIT License (see `LICENSE`).
 
 > [!IMPORTANT]
-> The character inside `ascii/*` is my own.
-> You may redistribute it non-commercially, but you may not claim authorship.
+> The character inside `ascii/*` is my own and has its own license (see `ascii/AKIGOMI_LICENSE`. You may redistribute it non-commercially, but you may not claim authorship.
