@@ -6,11 +6,11 @@ This is a simple detailed fastfetch config.jsonc template
 If you want to simply install my presets then feel free to run install.sh
 ```sh
 # Install
-curl -fL https://raw.githubusercontent.com/howhow2315/fastfetch-config/main/install.sh | sh
+curl -fL https://github.com/howhow2315/fastfetch-config/raw/main/install.sh | sh
 ```
 ```sh
 # Uninstall
-curl -fL https://raw.githubusercontent.com/howhow2315/fastfetch-config/main/install.sh | sh
+curl -fL https://github.com/howhow2315/fastfetch-config/raw/main/uninstall.sh | sh
 ```
 
 If you want to replace the ascii, replace `ascii/ascii.txt` with whatever youd like
