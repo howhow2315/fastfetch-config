@@ -1,6 +1,9 @@
 ## howhow-fastfetch-config
 
-This is a simple detailed fastfetch config.jsonc template, if you want to simply install my presets then feel free to run install.sh
+This is a simple detailed fastfetch config.jsonc template
+![Example](https://raw.githubusercontent.com/howhow2315/fastfetch-config/main/examples/example.png)
+
+If you want to simply install my presets then feel free to run install.sh
 ```sh
 # Install
 curl -fL https://raw.githubusercontent.com/howhow2315/fastfetch-config/main/install.sh | sh
@@ -18,7 +21,7 @@ git clone https://github.com/fastfetch-cli/fastfetch.wiki.git
 ```
 
 I left as much information as I could regarding possible configuration, however as its straight forward and purely information driven its partially up to you to fill in the gaps
-If you want to check a modules modern json formatting then you can run `fastfetch -h ${module}-format`
+If you want to check a modules modern json formatting then you can run `fastfetch -h "${module}-format"`
 
 This repository is licensed under the MIT License (see LICENSE).
 
