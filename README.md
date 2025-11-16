@@ -15,6 +15,8 @@ curl -fL https://github.com/howhow2315/fastfetch-config/raw/main/install.sh | sh
 curl -fL https://github.com/howhow2315/fastfetch-config/raw/main/uninstall.sh | sh # Uninstall
 ```
 
+If you want to install as root (not recommended) put the files in `/etc/fastfetch`, fix the ASCII path in `config.jsonc`, and disable `"sound"` if you get the `XDG_RUNTIME_DIR` error.
+
 ---
 
 #### Customization
